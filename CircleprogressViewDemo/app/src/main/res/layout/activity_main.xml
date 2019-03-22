@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.example.circleprogressviewdemo.CircleProgressView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/cprogress_correct"
+        android:progress="75"
+        android:max="100"
+        app:CircleProgressRadius="100dp"
+        app:CricleProgressText1Show="true"
+        app:CircleProgressForeColor="#3AD1BF"
+        app:CircleProgressBackColor="#FF2D2D"
+        app:CircleProgressText1Color="#232629"
+        app:CircleProgressText1Size="22sp"
+        app:CricleProgressStart="-90"
+        app:CricleProgressEnd="-270"
+        app:CircleProgressForeStroken="15dp"
+        app:CircleProgressBackStroken="15dp"
+        app:CricleProgressText2Show="true"
+        app:CircleProgressText2Color="#8993A0"
+        app:CircleProgressText2Size="14sp"
+        app:CricleProgressContent="全对率"
+        />
+
+</RelativeLayout>

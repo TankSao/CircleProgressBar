@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--圆形进度条-->
+    <declare-styleable name="CircleProgressStyle">
+        <!--半径-->
+        <attr name="CircleProgressRadius" format="dimension"></attr>
+        <!--前景色（进度条的颜色、宽度）-->
+        <attr name="CircleProgressForeColor" format="color"></attr>
+        <attr name="CircleProgressForeStroken" format="dimension"></attr>
+        <!--背景色、宽度-->
+        <attr name="CircleProgressBackColor" format="color"></attr>
+        <attr name="CircleProgressBackStroken" format="dimension"></attr>
+        <!--百分比文字颜色、大小、是否显示-->
+        <attr name="CircleProgressText1Color" format="color"></attr>
+        <attr name="CircleProgressText1Size" format="dimension"></attr>
+        <attr name="CricleProgressText1Show" format="boolean"></attr>
+        <!--文字说明颜色、大小、是否显示-->
+        <attr name="CircleProgressText2Color" format="color"></attr>
+        <attr name="CircleProgressText2Size" format="dimension"></attr>
+        <attr name="CricleProgressText2Show" format="boolean"></attr>
+        <!--起始位置-->
+        <attr name="CricleProgressStart" format="integer"></attr>
+        <!--结束位置-->
+        <attr name="CricleProgressEnd" format="integer"></attr>
+        <!--文字提示内容-->
+        <attr name="CricleProgressContent" format="string"></attr>
+    </declare-styleable>
+</resources>
